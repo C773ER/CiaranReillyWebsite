@@ -1,0 +1,216 @@
+body{
+	background-image: url("images/home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	padding-top: 40px;
+	text-align: center;
+	font-family: 'Helvetica Newe', sans-serif;
+	margin: 0;
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0, 0, 0, .5);
+	overflow: auto;
+	text-align: left;
+}
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 60px;
+}
+
+.search-form{
+	margin-top: 15px;
+	float: right;
+	margin-right: 50px;
+	line-height: 40px;
+}
+input[type=text]{
+	padding: 7px;
+	border: none;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+button{
+	float: right;
+	background: #b2b2b2;
+	color: #ffffff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	position: relative;
+	padding: 7px;
+	font-family: sans-serif;
+	border: none;
+	font-size: 18px;
+}
+
+.sect{ 
+	height: 100%;
+	width: 60%;
+	padding: 40px;
+	background-color: rgba(0, 0, 0, .7);
+	color: #f2f2f2;
+	margin: 0 auto;
+}
+
+.sectOne{
+
+}
+
+.sectTwo{
+
+}
+
+.sectThree{
+
+}
+
+.sectFour{
+
+}
+
+.sectFive{
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+h2{
+	font-weight: 200;
+	text-align: justify;
+	letter-spacing: 1;
+}
+
+h3{
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 1;
+}
+
+h4{
+	font-weight: 200;
+	text-align: justify;
+	letter-spacing: 1;
+}
+
+h5{
+	font-weight: 200;
+	text-align: justify;
+	letter-spacing: 1;
+}
+
+p{
+	font-weight: 200;
+	text-align: justify;
+	letter-spacing: 1;
+}
+
+.sectOne img{
+	width: 30%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#social{
+	font-size: 20px;
+	color: #ffffff;
+	text-align: left;
+}
+
+#social a{
+	color: #ffffff;
+}
+
+#social a:hover{
+	color: b2b2b2;
+}
+
+.line-break{
+	margin: 0 auto;
+	border-top: 2px solid;
+	width: 95%;
+	color: #ffffff;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+  color: #ffffff;
+  text-align: center;
+}
+table tr {
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+  color: #ffffff;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
