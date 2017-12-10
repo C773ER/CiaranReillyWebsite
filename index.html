@@ -1,0 +1,184 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+	rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="animate.css"/>
+<script>
+	$(document).ready(function(){
+		var scrollLink = $('.scroll');
+		
+		//smooth scrolling
+		scrollLink.click(function(e){
+			e.preventDefault();
+			$('body, html').animate({
+			scrollTop: $(this.hash).offset().top
+			}, 1000);
+		})
+	})
+</script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navMenu">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><b>Ciaran Reilly</b></a>
+    </div>
+    <ul class="nav navbar-nav">
+		<li class="nav-item active">
+			<a class="nav-link scroll" href="#homeSection">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link scroll" href="#aboutSection">About</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link scroll" href="#educationSection">Education</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link scroll" href="#experienceSection">Experience</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link scroll" href="#contactSection">Contact</a>
+		</li>
+    </ul>
+	<form class="navbar-form navbar-left" method="get" action="https://www.google.ie/search" target="blank">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search Google" name="q" size="31" value="">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        Search
+      </button>
+    </div>
+  </div>
+</form>
+  </div>
+</nav>
+		<div id="homeSection" class="sect sectOne">
+		<br>
+		<br>
+		<img src="images/profpic.jpg" alt="avatar">
+			<br>
+			</br>
+			<h1><b>Ciaran Reilly</b></h1>
+			<h3>IT Management student<h3>
+			<h3>IT Tallaght</h3>
+		<br>
+		<div class="line-break"></div>
+		<br>
+		<p>Thank you very much for taking the time to come visit my portfolio website.
+		Please feel free to take a look at background including my educational and work experience
+		history. Don't hesitate to contact me for any other queries.</p>
+	</div>
+	
+	<div id="aboutSection" class="sect sectTwo">
+			<br>
+			</br>
+			<h1>About</h1>
+		<br>
+		<div class="line-break"></div>
+		<br>
+		<p>I am an enthusiastic, motivated, hard worker with a passion for technology. 
+		I’m currently studying a BSc (Hons) Degree in Information Technology Management in ITT Dublin 
+		where I hope to learn and build my future as a technology professional. 
+		I’m looking now for an opportunity to develop my experience and technical career. 
+		I have experience with customer support and a good technical base with
+		hardware and software.</p>
+		<br>
+		<p>I am a proven high bar performer, with a passion for technology, the customer and delivering results.
+		I'm a fast and bright learner, able to take in large amounts of information and process it quickly while getting to grasps with new issues easily. 
+		I work great in teams as I have a positive can-do attitude and I'm highly analytical, with excellent communication and problem solving skills. 
+		I'm able to complete tasks with great attention to detail, within deadlines. 
+		I have a great desire to learn new things and to perform to best ability in all endeavours.</p>
+		<br>
+		<p>I’m an avid swimmer, having swam competitively over my life time and playing water polo at a top level.
+		I’m very involved with charity work having worked in Zambia raising much needed funds for education. 
+		I also enjoy cooking and socialising and in addition I have a keen interest in technology.</p>
+	</div>
+	
+	<div id="educationSection" class="sect sectThree">
+			<br>
+			</br>
+			<h1>Education</h1>
+		<br>
+		<div class="line-break"></div>
+		<br>
+		<p>Below are the details regarding my Grade Point Average for each year.</p>
+<table>
+  <caption>Grade Point Average</caption>
+  <thead>
+    <tr>
+      <th scope="col">Year 1</th>
+      <th scope="col">Year 2</th>
+      <th scope="col">Year 3</th>
+      <th scope="col">Year 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Year 1">2.48</td>
+      <td data-label="Year 2">2.35</td>
+      <td data-label="Year 3">2.41</td>
+      <td data-label="Year 4">TBC</td>
+    </tr>
+    <tr>
+  </tbody>
+</table>
+	</div>
+	
+	<div id="experienceSection" class="sect sectFour">
+			<br>
+			</br>
+			<h1>Experience</h1>
+		<br>
+		<div class="line-break"></div>
+		<br>
+		<h4>January 2017-August 2017</h4>
+		<h4>Managed Services Intern, Typetec Ltd.</h4>
+		<br>
+		<p>A technical, customer facing, problem solving role translating technical customer problems into solutions.
+			Analysing and resolving technical issues through contact channels directly and indirectly 
+			Quality assurance and troubleshooting complex problems to resolution through virtual machines
+			Successfully delivering end-to-end Project goals e.g. delivering a new RMM (Remote Monitoring and Management) Platform across Typetec’s entire customer base.
+		</p>
+		<br>
+		<br>
+		<h4>June 2016-August 2016</h4>
+		<h4>Technical Support Intern, XSellco Software Limited</h4>
+		<br>
+		<p>This was a very fast paced role that required quick and professional responses to customers in order to achieve customer satisfaction. 
+		I learned how to think on my feet in order to resolve unusual customer queries, multitask, and work well within the Support Team to deliver under pressure and to think independently.
+		A team orientated cross functional role with an analytical approach to problem solving
+		This role required an in-depth understanding of XSellco’s software products and handling customer queries through contact channels.
+		</p>
+	</div>
+	
+	<div id="contactSection" class="sect sectFive">
+			<br>
+			</br>
+			<h1>Contact</h1>
+		<br>
+		<div class="line-break"></div>
+		<br>
+		<p>Please feel free to contact me between:</p>
+		<br>
+		<p>Monday - Friday</p>
+		<p>09:00 - 16:45</p>
+		<br>
+		<p>Here are the methods in which you can contact me by</p>
+		<div id="social">
+		<p><i class="fa fa-phone" aria-hidden="true"></i>087 123456</p>
+		<p><i class="fa fa-envelope" aria-hidden="true"></i>ciaranjreilly@live.ie</p>
+		<a href="https://www.linkedin.com/in/ciaran-reilly-81a977b3/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+		</div>
+	</div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
